@@ -1,0 +1,88 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jai"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="Organs To Donate
+"
+            android:id="@+id/textView4"
+            android:textSize="36sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBottom="@+id/editText5"
+            android:textStyle="normal|italic"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+
+        <CheckBox
+        android:id="@+id/ao"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:text="All Organs"
+        android:textSize="40sp" />
+
+        <CheckBox
+        android:id="@+id/ey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eyes"
+        android:textSize="40sp" />
+
+    <CheckBox
+        android:id="@+id/ht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heart"
+        android:textSize="40sp" />
+
+    <CheckBox
+        android:id="@+id/lu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lungs"
+        android:textSize="40sp" />
+
+    <CheckBox
+        android:id="@+id/li"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:text="Liver"
+        android:textSize="40sp" />
+
+    <CheckBox
+        android:id="@+id/kin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kidneys"
+        android:textSize="40sp" />
+
+    <CheckBox
+        android:id="@+id/pan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pancreas"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic" />
+
+    </LinearLayout>
+
+</ScrollView>

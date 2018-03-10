@@ -1,0 +1,82 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jai"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Aastha Hospitals Sri Ganganagar Phone: 0154 - 2472222" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Apex Hospitals Jaipur Phone: 91-141-2751871 ." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Fortis Escorts Hospital Jaipur Phone: 91 141 2547000 " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Mahatma Gandhi Hospital Jaipur Phone: 91-0141- 2770798" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text=" Monilek Hospital Jaipur Phone: (91)-(141)-2651393 " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Narayana Multispeciality Hospital Jaipur Phone: 0141 - 7122 222" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="SMS Medical College and Hospital Jaipur Phone: 91-141-2560291" />
+        <Button
+            android:text="View More"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:minHeight="60dp"
+            android:minWidth="150dp"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="85dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </LinearLayout>
+</ScrollView>
