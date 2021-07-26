@@ -1,0 +1,70 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jai"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Apollo Hospital Hyderabad Mobile: 9652222655" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Care Hospital Hyderabad Mobile: 8008801028" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Mediciti Hospitals Hyderabad Mobile: 9908605222" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Gandhi Hospital Secunderabad Mobile: 885060095" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Global Hospital Hyderabad Mobile: 8978026262" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="KIMS Secunderabad Mobile: 9966868678" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="NIMS Hospital Hyderabad  Mobile: 8885060093" />
+        <Button android:layout_height="wrap_content" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button2" android:text="viewmore" android:linksClickable="true" android:onClick="goToSo"></Button>
+
+
+
+    </LinearLayout>
+</ScrollView>

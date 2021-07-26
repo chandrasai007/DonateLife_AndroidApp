@@ -1,0 +1,67 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jai"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="t.raju o+ve allorgans Ahmedabad Phone: 70796701800" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text=" Amrita A+ve allorgans Kochi Phone: 9428101234" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text=" Asianh   B+ve Heart  Mumbai Phone: 7856986666" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Aastha O-ve allorgans Sri Ganganagar Phone: 7880472222" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="s.sai O+ve allorgans Chennai Phone: 7896290200" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="M.bhaskar O-ve eyes,heart,kidneys Hyderabad Mobile: 9652222655" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="L.Mohan B-ve allorgans Kolkata Phone: 9178969640 " />
+
+
+    </LinearLayout>
+</ScrollView>

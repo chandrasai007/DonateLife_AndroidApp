@@ -1,0 +1,76 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jai"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Asian Heart Institute Mumbai Phone: 56986666" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Bhatia Hospital Mumbai Phone:55458666" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Bombay Hospital Mumbai Phone: 022-22067676" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Breach Candy Hospital Mumbai Phone: 022 - 23667949 " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text=" BYL Nair Charitable Hospital Mumbai Phone: 23081490" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="  Care Hospitals Nagpur Phone: 0712 – 3982222" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Dr. Balabhai Nanavati Hospital Mumbai Phone: 2618 2255" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Dr. L. H. Hiranandani Hospital Mumbai Phone: 25763300 " />
+        <Button android:layout_height="wrap_content" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button2" android:text="viewmore" android:linksClickable="true" android:onClick="goToSo"></Button>
+
+
+
+    </LinearLayout>
+</ScrollView>

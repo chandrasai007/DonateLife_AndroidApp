@@ -1,0 +1,62 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jai"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Apollo Hospitals Enterprises Ltd Chennai Phone: 044 – 28290200" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Billroth Hospital Chennai Phone: 044-26641777 " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Chettinad Hospital and Research Institute Kanchipuram District Phone: 044 4741 1000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text=" D.D. Hospital and D.D. Medical College Thiruvallur Distric Phone: 044 – 27677700" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Fortis Malar Hospitals Ltd Chennai Phone: 044-42892222  " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="0.03"
+            android:textSize="30sp"
+            android:text="Frontier Life Line Chennai Phone: 91 44 26564224" />
+        <Button android:layout_height="wrap_content" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button2" android:text="viewmore" android:linksClickable="true" android:onClick="goToSo"></Button>
+
+
+
+    </LinearLayout>
+</ScrollView>
